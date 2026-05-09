@@ -100,8 +100,8 @@ Responde de forma concisa y clara en español."""
 # INTERFAZ STREAMLIT
 # =======================
 
-st.set_page_config(page_title="Chat PDF con MongoDB + Gemini", page_icon="💬")
-st.title("💬 Chatbot de tu PDF (MongoDB + Gemini)")
+st.set_page_config(page_title="Chat PDF sobre AWS", page_icon="💬")
+st.title("💬 Chatbot de AWS")
 
 if "historial" not in st.session_state:
     st.session_state.historial = []
